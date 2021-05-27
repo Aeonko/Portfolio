@@ -7,8 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.google.firebase.firestore.FirebaseFirestore
 import com.nemanjamiseljic.portfolio.repo.Repository
 import com.nemanjamiseljic.portfolio.roomdb.dataclasses.LocalProfile
-import com.nemanjamiseljic.portfolio.roomdb.firestore.FirestoreProfile
-import com.nemanjamiseljic.portfolio.screens.utils.Utils.FIRESTORE_PATH_PROFILE
+import com.nemanjamiseljic.portfolio.utils.Utils.FIRESTORE_PATH_PROFILE
 import dagger.hilt.android.lifecycle.HiltViewModel
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.launch

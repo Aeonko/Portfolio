@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.viewModels
-import com.nemanjamiseljic.portfolio.screens.utils.MyFragmentFactory
+import com.nemanjamiseljic.portfolio.utils.MyFragmentFactory
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

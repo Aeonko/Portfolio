@@ -1,4 +1,4 @@
-package com.nemanjamiseljic.portfolio.screens.utils
+package com.nemanjamiseljic.portfolio.utils
 
 object Utils {
 

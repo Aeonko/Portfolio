@@ -1,4 +1,4 @@
-package com.nemanjamiseljic.portfolio.screens.utils
+package com.nemanjamiseljic.portfolio.utils
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentFactory
