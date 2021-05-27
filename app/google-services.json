@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "756828779256",
+    "project_id": "portfolio-b4ab4",
+    "storage_bucket": "portfolio-b4ab4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756828779256:android:eebfd3b8ffaf15b1cc010d",
+        "android_client_info": {
+          "package_name": "com.nemanjamiseljic.portfolio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756828779256-kkc5jv74f3p1k0gnn5re8po82com7mmm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaP4dBJ1GrsPrP_UUyOHd61ik99SzLbsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756828779256-kkc5jv74f3p1k0gnn5re8po82com7mmm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
