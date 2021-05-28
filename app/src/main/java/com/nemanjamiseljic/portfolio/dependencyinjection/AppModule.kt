@@ -7,6 +7,7 @@ import com.bumptech.glide.request.RequestOptions
 import com.google.firebase.firestore.FirebaseFirestore
 import com.nemanjamiseljic.portfolio.R
 import com.nemanjamiseljic.portfolio.roomdb.LocalDatabase
+import com.nemanjamiseljic.portfolio.screens.profile.ProfileAdapter
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -27,6 +28,10 @@ object AppModule {
     @Provides
     fun injectProfileDao(database: LocalDatabase) = database.ProfileEntryDao()
 
+    @Singleton
+    @Provides
+    fun injectMyMetaDataDao(database: LocalDatabase) = database.MyMetaDataDao()
+
 
     @Singleton
     @Provides
@@ -39,5 +44,9 @@ object AppModule {
     fun injectGlide(@ApplicationContext context: Context) = Glide.with(context).setDefaultRequestOptions(
         RequestOptions().placeholder(R.drawable.ic_launcher_background).error(R.drawable.ic_launcher_background)
     )
+
+    @Singleton
+    @Provides
+    fun injectProfileAdapter() = ProfileAdapter()
 
 }

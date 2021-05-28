@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.Flow
 interface ProfileDao {
 
 
-    @Insert (onConflict = OnConflictStrategy.ABORT)
+    @Insert (onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertProfileEntry(localProfile: LocalProfile)
 
     @Update

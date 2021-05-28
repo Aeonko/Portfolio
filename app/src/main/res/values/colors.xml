@@ -8,4 +8,11 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="light_grey">#CFCFCF</color>
+
+    <color name="marine_blue">#043353</color>
+    <color name="marine_blue_variant">#065185</color>
+    <color name="bright_cerulean">#18A4E0</color>
+    <color name="bright_cerulean_variant">#36C2FF</color>
+    <color name="milk_glass">#FAF8F0</color>
+    <color name="nordic_breeze">#D3DDE6</color>
 </resources>

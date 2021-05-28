@@ -1,5 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profileFragment">
 
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.nemanjamiseljic.portfolio.screens.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/portfolioFragment"
+        android:name="com.nemanjamiseljic.portfolio.screens.portfolio.PortfolioFragment"
+        android:label="@string/portfolio"
+        tools:layout="@layout/fragment_portfolio" />
+    <fragment
+        android:id="@+id/experienceFragment"
+        android:name="com.nemanjamiseljic.portfolio.screens.experience.ExperienceFragment"
+        android:label="@string/experience"
+        tools:layout="@layout/fragment_experience" />
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.nemanjamiseljic.portfolio.screens.contact.ContactFragment"
+        android:label="@string/contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.nemanjamiseljic.portfolio.screens.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/favoritesFragment"
+        tools:layout="@layout/fragment_favorites"
+        android:name="com.nemanjamiseljic.portfolio.screens.favorites.FavoritesFragment"
+        android:label="FavoritesFragment" />
 </navigation>

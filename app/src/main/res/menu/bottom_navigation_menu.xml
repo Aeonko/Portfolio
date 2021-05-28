@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="@string/profile"
+        android:icon="@drawable/navigation_selector_profile"
+        />
+    <item
+        android:id="@+id/portfolioFragment"
+        android:title="@string/portfolio"
+        android:icon="@drawable/navigation_selector_portfolio"
+        />
+    <item
+        android:id="@+id/experienceFragment"
+        android:title="@string/experience"
+        android:icon="@drawable/navigation_selector_experience"/>
+    <item
+        android:id="@+id/contactFragment"
+        android:title="@string/contact" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="@string/settings" />
+</menu>
